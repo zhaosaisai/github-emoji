@@ -36,7 +36,7 @@ if emoji_html != "":
                 tr += '<td>:%s: %s</td></tr><tr>' % (emoji_name, emoji_name)
             else:
                 tr += '<td>:%s: %s</td>' % (emoji_name, emoji_name)
-        tr += '</tr></table>\n'
+        tr += '</tr></table>\n\n'
         md += tr
     f.write(md)
     # write to emoji.json
